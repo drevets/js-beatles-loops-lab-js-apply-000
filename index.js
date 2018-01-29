@@ -1,7 +1,7 @@
 function theBeatlesPlay(musicians, instruments){
   var sentences = [];
   for (var i = 0; i < musicians.length; i++) {
-    var sentence = musicians[i] + ' plays ' + instruments[i] + '.'
+    var sentence = musicians[i] + ' plays ' + instruments[i]
     sentences.push(sentence)
   }
   return sentences
@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians, instruments){
 function johnLennonFacts(facts) {
   var index = 0;
   while (index < facts.length) {
-    facts[index] = facts[index] + '!'
+    facts[index] = facts[index] + '!!!'
     index +=1
   }
   return facts
